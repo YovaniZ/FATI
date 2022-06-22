@@ -20,6 +20,6 @@ from myadblib import ADB
 command = 'date'
 output = ADB.run(command, print_result=False)
 
-  for lines in output:
-    print(lines)
+for lines in output:
+  print(lines)
 ``` 
