@@ -9,16 +9,16 @@ To run an example for a 'date' command over USB (by using ADB):
 from myadblib import CMD
 
 command = 'date'
-output = CMD.run(command)
+output = ADB.run(command)
 ```  
-  by default CMD has a param called print_result=True
+  by default ABD.run() has a param called print_result=True
 
 Same last example
 ```
 from myadblib import ADB
 
 command = 'date'
-output = CMD.run(command, print_result=False)
+output = ADB.run(command, print_result=False)
 ``` 
   for lines in output:
     print(lines)
