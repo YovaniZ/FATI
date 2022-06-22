@@ -6,6 +6,8 @@ to run CLI commands and return stdout scope
 
 To run an example for a 'date' command over USB (by using ADB):
 ```
+from myadblib import ADB
+
 command = 'date'
 output = CMD.run(command)
 ```  
@@ -13,6 +15,8 @@ output = CMD.run(command)
 
 Same last example
 ```
+from myadblib import ADB
+
 command = 'date'
 output = CMD.run(command, print_result=False)
 ``` 
