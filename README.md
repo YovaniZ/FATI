@@ -1,6 +1,8 @@
-# FATI are two modules for AT-commands
-# connection over USB and by TCP using SSH
-# to run CLI commands and return stdout scope
+FATI are two modules for AT-commands
+connection over USB and by TCP using SSH
+to run CLI commands and return stdout scope
+
+#Examples using CMD module (Inside ADB CLI commands)
 
 To run an example for a 'date' command over USB (by using ADB):
 
